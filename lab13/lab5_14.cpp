@@ -14,7 +14,8 @@ int main(){
     cout << "Summation of Number "<< 5 << " to "<< 10;
     cout << " = "<< Summation(5) << endl;
     cout << "Summation of Number "<< 1 << " to "<< 10;
-    cout << " = "<< Summation() << endl; return(0);
+    cout << " = "<< Summation() << endl;
+    return(0);
     }
 int Summation(int StartNumber, int EndNumber){
     long Sum = 0;
