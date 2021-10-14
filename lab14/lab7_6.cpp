@@ -15,7 +15,7 @@ int main(){
        cout << "\ni = "<<setw(2) << i << "   *(x+i) = ";
        cout << setw(2) << *(x+i) << "   x[i] = "<< setw(2) << x[i];
     }
-    Reorder( x, n);
+    Reorder(x, n);
     cout << "\n\nReordered list of numbers:\n";
     for( i = 0 ; i < n ; i++){cout << "\ni = "<< setw(2) << i << "   *(x+i) = ";
     cout << setw(2) << *(x+i) << "   x[i] = "<< setw(2) << x[i];
